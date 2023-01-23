@@ -56,7 +56,7 @@ export default function Movies() {
             return;
         }
         findMovies(movieName);
-    }, []);
+    }, [movieName]);
 
     return (
         <section className={css.movieSearch}>
