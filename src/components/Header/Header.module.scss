@@ -1,0 +1,37 @@
+.header {
+    margin: 0;
+    padding: 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.894);
+}
+
+.nav {
+    padding-left: 30px;
+    display: flex;
+    column-gap: 14px;
+}
+
+.navLink {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+
+    &:hover {
+        color: rgb(61, 89, 213);
+    }
+
+    &.navLinkActive {
+        color: tomato;
+        text-decoration: underline;
+
+        &:hover {
+            color: rgb(61, 89, 213);
+            text-decoration: none;
+        }
+    }
+}

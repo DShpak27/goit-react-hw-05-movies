@@ -1,0 +1,17 @@
+.reviewsList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.reviewAuthor {
+    color: rgba(0, 0, 0, 0.657);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.reviewText {
+    color: rgba(0, 0, 0, 0.646);
+    font-size: 14px;
+}

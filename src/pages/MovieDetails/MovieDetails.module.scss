@@ -1,0 +1,59 @@
+.goBackBtn {
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.topWrapper {
+    min-height: 305px;
+    padding-bottom: 3px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.moviePosterWrapper {
+    min-width: 205px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.navLink {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+
+    &:hover {
+        color: rgb(61, 89, 213);
+    }
+
+    &.navLinkActive {
+        color: tomato;
+        text-decoration: underline;
+
+        &:hover {
+            color: rgb(61, 89, 213);
+            text-decoration: none;
+        }
+    }
+}
+
+.bottomWrapper {
+    border-top: 1px dashed rgba(0, 0, 0, 0.411);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.411);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.LinkWrapper {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}

@@ -1,0 +1,27 @@
+.castList {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.actorName {
+    margin-bottom: 5px;
+}
+
+.actorCharacter {
+    margin-bottom: 5px;
+}
+
+.fotoWrapper {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.foto {
+    padding-bottom: 5px;
+    display: block;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.319);
+
+}

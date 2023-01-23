@@ -1,0 +1,61 @@
+.movieList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.Link {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(18, 108, 182);
+
+    &:hover,
+    &:focus {
+        color: rgb(249, 120, 97);
+    }
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+
+
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid rgb(100, 145, 183);
+    border-radius: 3px;
+    outline: none;
+    width: 450px;
+    margin-right: 10px;
+
+    &:focus {
+        border-color: rgb(249, 120, 97);
+    }
+}
+
+.submitBtn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(100, 145, 183);
+    height: 33.2px;
+    width: 100px;
+
+    &:hover,
+    &:focus {
+        background-color: rgb(249, 120, 97);
+    }
+}
+
+.nothingFoundText {
+    padding-top: 30px;
+    font-weight: 600;
+    color: rgba(247, 5, 5, 0.646);
+    font-size: 18px;
+}
